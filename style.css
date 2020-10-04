@@ -10,17 +10,45 @@ body *{
 .section-1 h1{
     margin: 30px;
 }
+
 .section-1 .mouse{
     margin-top: 120px
 }
+
 .section-2{
     padding: 100px 0 100px 0;
 }
+
 .section-3{
     background-image: url('assets/backgrounds/s_image.jpg');
     padding: 100px 0 100px 0;
     color: white;
 }
+
 .section-4{
     padding-top: 30px;
+}
+
+.section-5{
+    padding: 80px 100px 100px 80px;
+}
+.section-5 .project{
+    height: 200px;
+    padding: 0;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+.section-5 .project .name{
+    padding-top: 100px;
+    background: rgba(255,255,255,.7);
+    height: 200px;
+    color: #000000;
+}
+
+.section-6 input, .section-6 textarea{
+    background: transparent;
+    color: white;
+}
+.section-6 input::placeholder, .section-6 textarea::placeholder{
+    color: white;
 }
