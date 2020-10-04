@@ -109,4 +109,12 @@ jQuery(function () {
        
         $(".p8 .name").addClass("hidden");
     })
+
+    $(".contact").on("submit", function(){
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var message = $("#message").val();
+         alert(name + " we have received your message. Thank you fro reaching out to us");
+         return false;
+     })
 })
