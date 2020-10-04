@@ -1,48 +1,58 @@
-body *{
+body * {
     font-family: 'Roboto', sans-serif;
 }
-.section-1{
+
+.section-1 {
     background-image: url('assets/backgrounds/h_img.jpg');
     background-size: cover;
     padding: 300px 0 20px 0;
     color: white;
 }
-.section-1 h1{
+
+.section-1 h1 {
     margin: 30px;
 }
 
-.section-1 .mouse{
+.section-1 .mouse {
     margin-top: 120px
 }
 
-.section-2{
+.section-2 {
     padding: 100px 0 100px 0;
 }
 
-.section-3{
+.section-3 {
     background-image: url('assets/backgrounds/s_image.jpg');
     padding: 100px 0 100px 0;
     color: white;
 }
 
-.section-4{
+.section-4 {
     padding-top: 30px;
 }
 
-.section-5{
+.section-5 {
     padding: 80px 100px 100px 80px;
 }
-.section-5 .project{
+
+.section-5 .project {
     height: 200px;
     padding: 0;
     margin-bottom: 25px;
     background-size: cover;
 }
-.section-5 .project .name{
+
+.section-5 .project .name {
     padding-top: 100px;
-    background: rgba(255,255,255,.7);
+    background: rgba(255, 255, 255, .7);
     height: 200px;
     color: #000000;
+}
+
+.section-6{
+    background-image: url('assets/backgrounds/c_image.jpg');
+    padding: 100px 20% 100px 20%;
+    color: white;
 }
 
 .section-6 input, .section-6 textarea{
@@ -53,18 +63,22 @@ body *{
     color: white;
 }
 
-.section-7{
+.section-7 {
     padding: 50px 0 0 0;
 }
-.section-7 img{
+
+.section-7 img {
     width: 50px;
     height: 50px;
     margin: 10px
 }
 
-.design, .development, .product-management{
+.design,
+.development,
+.product-management {
     cursor: pointer;
 }
+
 .hidden {
     display: none;
 }
