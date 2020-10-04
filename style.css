@@ -16,3 +16,8 @@ body *{
 .section-2{
     padding: 100px 0 100px 0;
 }
+.section-3{
+    background-image: url('assets/backgrounds/s_image.jpg');
+    padding: 100px 0 100px 0;
+    color: white;
+}
