@@ -52,3 +52,12 @@ body *{
 .section-6 input::placeholder, .section-6 textarea::placeholder{
     color: white;
 }
+
+.section-7{
+    padding: 50px 0 0 0;
+}
+.section-7 img{
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
