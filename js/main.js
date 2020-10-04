@@ -28,5 +28,85 @@ jQuery(function () {
         $(".product-management .title").removeClass("hidden");
     })
 
+    //project1 name
+    $(".p1").on("mouseover", function () {
+        
+        $(".p1 .name").removeClass("hidden");
+    })
+    $(".p1").on("mouseout", function () {
+       
+        $(".p1 .name").addClass("hidden");
+    })
     
+
+     
+    //project2 name
+    $(".p2").on("mouseover", function () {
+       
+        $(".p2 .name").removeClass("hidden");
+    })
+    $(".p2").on("mouseout", function () {
+       
+        $(".p2 .name").addClass("hidden");
+    })
+
+    //project3 name
+    $(".p3").on("mouseover", function () {
+       
+        $(".p3 .name").removeClass("hidden");
+    })
+    $(".p3").on("mouseout", function () {
+       
+        $(".p3 .name").addClass("hidden");
+    })
+
+    //project4 name
+    $(".p4").on("mouseover", function () {
+       
+        $(".p4 .name").removeClass("hidden");
+    })
+    $(".p4").on("mouseout", function () {
+       
+        $(".p4 .name").addClass("hidden");
+    })
+
+    //project5 name
+    $(".p5").on("mouseover", function () {
+       
+        $(".p5 .name").removeClass("hidden");
+    })
+    $(".p5").on("mouseout", function () {
+       
+        $(".p5 .name").addClass("hidden");
+    })
+
+    //project6 name
+    $(".p6").on("mouseover", function () {
+       
+        $(".p6 .name").removeClass("hidden");
+    })
+    $(".p6").on("mouseout", function () {
+       
+        $(".p6 .name").addClass("hidden");
+    })
+
+    //project7 name
+    $(".p7").on("mouseover", function () {
+       
+        $(".p7 .name").removeClass("hidden");
+    })
+    $(".p7").on("mouseout", function () {
+   
+        $(".p7 .name").addClass("hidden");
+    })
+
+    //project8 name
+    $(".p8").on("mouseover", function () {
+       
+        $(".p8 .name").removeClass("hidden");
+    })
+    $(".p8").on("mouseout", function () {
+       
+        $(".p8 .name").addClass("hidden");
+    })
 })
