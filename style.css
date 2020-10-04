@@ -7,3 +7,12 @@ body *{
     padding: 300px 0 20px 0;
     color: white;
 }
+.section-1 h1{
+    margin: 30px;
+}
+.section-1 .mouse{
+    margin-top: 120px
+}
+.section-2{
+    padding: 100px 0 100px 0;
+}
